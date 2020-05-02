@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Модуль 10</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="main.js" defer></script>
+</head>
+<style>
+  .hide {
+    display: none;
+  }
+
+  .title {
+    margin: 0 auto;
+  }
+
+  .textblock {
+    width: 100%;
+    margin: 0 auto;
+    outline: none;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .history p:hover {
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="title text-center">
+          <h2>
+            Редактирование текста
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7">
+        <div class="textblock">
+          <p>
+            Каждый идет своим путем. Но все дороги всё равно идут в никуда. Значит, весь смысл в самой дороге, как по
+            ней идти… Если идешь с удовольствием, значит, это твоя дорога. Если тебе плохо – в любой момент можешь сойти
+            с нее, как бы далеко ни зашел. И это будет правильно.
+          </p>
+          <br>
+          <p>
+            – Ты слишком серьезно себя принимаешь, – сказал он медленно. – ты слишком чертовски важен в своих
+            собственных глазах. Это должно быть изменено! Ты так чертовски важен, что ты чувствуешь себя вправе
+            раздражаться всем. Ты так чертовски важен, что ты можешь себе позволить уйти, если вещи не складываются так,
+            как тебе бы хотелось. Я полагаю, ты думаешь, все это показывает, что ты имеешь характер. Это чепуха! Ты слаб
+            и мнителен! Я попытался изобразить протест, но он не поддался. Он указал, что за всю мою жизнь я никогда
+            ничего не закончил из-за чувства неуместной важности, которую я связал с самим собой.
+          </p>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="history">
+          <p>Вернуться к исходному тексту</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7 offset-5">
+        <button class="cancel hide btn btn-primary">Отмена</button>
+        <button class="save hide btn btn-primary">Сохранить</button>
+        <button class="edit btn btn-primary">Изменить</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
